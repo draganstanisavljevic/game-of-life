@@ -74,6 +74,10 @@ public class Grid {
         return cells.length - 1;
     }
     
+    private int brisiMe() {
+        return cells.length - 1;
+    }
+    
     private int getMaxColumn() {
         return cells[0].length - 1;
     }
